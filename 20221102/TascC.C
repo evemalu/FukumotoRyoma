@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <cstdlib>
 
 int main(void)
 {
-    int h[10] = {1,2,3,4,5,6,7,8,9,10};
+    int v2 = rand % 100;
+    int h[10] = {v2};
 
 
     for (int i = 0; i < 10; ++i)
