@@ -1,11 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <cstdlib>
+#include <time.h>
 
+
+int a;
+int u;
 int main(void)
 {
-    int v2 = rand % 100;
-    int h[10] = {v2};
+   srand(time(NULL));
+
+  a = rand() % 100;
+
+
+    int h[10] = {a,a,a,a,a,a,a,a,a,a};
 
 
     for (int i = 0; i < 10; ++i)
