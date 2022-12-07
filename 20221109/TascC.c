@@ -2,6 +2,7 @@
 #include<algorithm>
 #include<random>
 
+using namespace std;
 // 配列のサイズ
 const int kArraySize = 100;
 
@@ -37,6 +38,5 @@ int main() {
 
   return 0;
 }
-上記プログラムでは、乱数を生成するためにrandom_deviceクラスと、配列を昇順にソートするためにsort関数を使用しています。また、バイナリサーチを行うために、探索範囲の左端と右端を指定する変数を用意し、その範囲内で中央
 
 
